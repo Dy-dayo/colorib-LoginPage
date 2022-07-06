@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background:linear-gradient(to left, rgba(133, 8, 195, 0.951), rgba(92, 32, 195, 0.951));
+    display: flex; justify-content: center;
+}
+#main{
+    margin-top: 8em;
+    background: rgba(243, 238, 238, 0.934);
+    border-radius: 20px;
+    box-shadow: 5px rgba(227, 224, 224, 0.766);
+    width: 47%;
+    height: 70vh; display: grid; grid-template-columns: 1fr 1fr;
+}
+
+#image-div{
+    display: flex; justify-content: center; align-items: center;
+}
+#image{
+    width: 16em; height: 16em; border-radius: 80px;
+}
+#login-div{
+    display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: Arial, Helvetica, sans-serif;
+}
+#form{
+    display:grid ; grid-template-rows: auto auto;
+}
+input,button{
+    width: 17em; height: 3em; border-radius: 20px;
+}
+#submit-btn{
+    background-color: rgba(27, 119, 27, 0.918); font-weight: bolder; color: rgba(255, 255, 255, 0.906);
+}
+#email{
+    margin-top: 6em; margin-bottom: 10px;
+}
+#password{
+    margin-bottom: 2em;
+}
+p{
+    margin-bottom: 6em;
+}
+a{ text-decoration: none; color: grey;}
